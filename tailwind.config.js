@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inika: ["Inika", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

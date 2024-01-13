@@ -1,14 +1,14 @@
 const Nav = () => {
   return (
-    <nav className="flex items-center justify-center">
+    <nav className="flex items-center justify-center ml-24 m-8 font-inika">
       <div>Logo</div>
-      <ul className="flex ml-9 md:ml-[30rem]">
+      <ul className="flex md:ml-[25rem] space-x-7">
         <li>Home</li>
         <li>About</li>
         <li>Menu</li>
         <li>Contact</li>
       </ul>
-      <div>Sign Up</div>
+      <div className="md:ml-[17rem]">Sign Up</div>
     </nav>
   );
 };
