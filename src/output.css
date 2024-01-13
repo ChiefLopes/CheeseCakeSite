@@ -574,6 +574,10 @@ video {
   font-family: Inika, sans-serif;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   .md\:ml-\[17rem\] {
     margin-left: 17rem;

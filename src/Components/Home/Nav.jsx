@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <nav className="flex items-center justify-center ml-24 m-8 font-inika">
+    <nav className="flex items-center justify-center ml-24 m-8 font-inika ">
       <div>Logo</div>
       <ul className="flex md:ml-[25rem] space-x-7">
         <li>Home</li>
