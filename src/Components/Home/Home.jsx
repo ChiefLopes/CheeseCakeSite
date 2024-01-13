@@ -2,7 +2,9 @@ import Nav from "./Nav";
 
 const Home = () => {
   return (
-    <div>
+    <div
+      className="bg-cover bg-center h-screen"
+      style={{ backgroundImage: 'url("../../assets/bgphoto/HomeBg.png")' }}>
       <Nav />
 
       <div>
@@ -11,12 +13,12 @@ const Home = () => {
           <p>
             We always make our customer happy by providing as many choices as
             possible
-                  </p>
-                  
-                  <div>
-                      <button>Get Started</button>
-                      <button>Watch Demo</button>
-                  </div>
+          </p>
+
+          <div>
+            <button>Get Started</button>
+            <button>Watch Demo</button>
+          </div>
         </div>
         <div></div>
       </div>
