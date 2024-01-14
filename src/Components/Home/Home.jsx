@@ -3,8 +3,7 @@ import Nav from "./Nav";
 const Home = () => {
   return (
     <div
-      className="bg-cover bg-center h-screen"
-      style={{ backgroundImage: 'url("../../assets/bgphoto/HomeBg.png")' }}>
+      className="bg-cover bg-center h-screen background">
       <Nav />
 
       <div>
