@@ -626,4 +626,28 @@ video {
   .md\:ml-\[20rem\] {
     margin-left: 20rem;
   }
+
+  .md\:ml-\[18rem\] {
+    margin-left: 18rem;
+  }
+
+  .md\:ml-\[\] {
+    margin-left: ;
+  }
+
+  .md\:ml-\[2rem\] {
+    margin-left: 2rem;
+  }
+
+  .md\:ml-\[-2rem\] {
+    margin-left: -2rem;
+  }
+
+  .md\:ml-\[-rem\] {
+    margin-left: -rem;
+  }
+
+  .md\:ml-\[-7rem\] {
+    margin-left: -7rem;
+  }
 }
