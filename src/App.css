@@ -1,8 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=La+Belle+Aurore&family=Montserrat:wght@200;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inika&family=La+Belle+Aurore&family=Montserrat:wght@200;400;500;700;900&display=swap');
 
 .background {
     background: url('./assets/bgphoto/Home.png') center/cover no-repeat;

@@ -1,13 +1,11 @@
-import React from 'react'
-import Home from "../Components/Home/Home"
+import Home from "../Components/Home/Home";
 
 const LandingPage = () => {
   return (
-      <div>
-           <Home />
-          
+    <div>
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;
