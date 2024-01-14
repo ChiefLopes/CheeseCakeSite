@@ -1,4 +1,4 @@
-import About from "../assets/PgImgs/About.png"
+import About from "../assets/PgImgs/About.png";
 
 const AboutUs = () => {
   return (
