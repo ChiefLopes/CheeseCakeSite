@@ -2,13 +2,13 @@ import About from "../assets/PgImgs/About.png"
 
 const AboutUs = () => {
   return (
-    <div className="flex ml-20 space-x-9">
+    <div className="flex ml-20 space-x-9 h-3/5">
       <div className="h-20  md:w-[30rem]">
         <img src={About} alt="" />
       </div>
-      <div className="flex flex-col align-center">
+      <div className="flex flex-col align-center mt-[10rem] space-y-5">
         <span>
-          <p>We Love Cheesecake</p>
+          <p className="text-6xl">We Love Cheesecake</p>
           <p>Discover Our Cheesecake Story</p>
         </span>
         <span>
