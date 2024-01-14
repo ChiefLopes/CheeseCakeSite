@@ -6,16 +6,22 @@ const Home = () => {
       <Nav />
 
       <div>
-        <div>
-          <p className="text-[#523728] text-5xl tracking-wide leading-12">Bite The World of <br /> Cheesecake Wonders</p>
+        <div className="text-[#523728] space-y-3">
+          <p className=" text-5xl tracking-wide leading-[4rem] ">
+            Bite The World of <br /> Cheesecake Wonders
+          </p>
           <p>
-            We always make our customer happy by providing as many choices as
-            possible
+            We always make our customer happy by providing <br /> as many
+            choices as possible
           </p>
 
-          <div>
-            <button>Get Started</button>
-            <button>Watch Demo</button>
+          <div className="">
+            <button className="bg-[#6A4028] text-white rounded-2xl h-9 w-28">
+              Get Started
+            </button>
+            <button className="border border-[#6A4028] rounded-2xl h-9 w-28">
+              Watch Demo
+            </button>
           </div>
         </div>
         <div></div>
