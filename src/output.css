@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=La+Belle+Aurore&family=Montserrat:wght@200;400;500;700;900&display=swap');
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -444,7 +446,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -494,7 +496,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -544,69 +546,45 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
-.ml-24 {
-  margin-left: 6rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-16 {
-  margin-left: 4rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.flex {
+.flex{
   display: flex;
 }
 
-.h-screen {
+.h-20{
+  height: 5rem;
+}
+
+.h-screen{
   height: 100vh;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.space-x-7 > :not([hidden]) ~ :not([hidden]) {
+.space-x-7 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1.75rem * var(--tw-space-x-reverse));
   margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.bg-cover {
+.bg-cover{
   background-size: cover;
 }
 
-.bg-center {
+.bg-center{
   background-position: center;
 }
 
-.p-8 {
+.p-8{
   padding: 2rem;
 }
 
-.font-inika {
+.font-inika{
   font-family: Inika, sans-serif;
 }
 
@@ -614,40 +592,16 @@ video {
   background: url('./assets/bgphoto/Home.png') center/cover no-repeat;
 }
 
-@media (min-width: 768px) {
-  .md\:ml-\[17rem\] {
+@media (min-width: 768px){
+  .md\:ml-\[-7rem\]{
+    margin-left: -7rem;
+  }
+
+  .md\:ml-\[17rem\]{
     margin-left: 17rem;
   }
 
-  .md\:ml-\[25rem\] {
-    margin-left: 25rem;
-  }
-
-  .md\:ml-\[20rem\] {
+  .md\:ml-\[20rem\]{
     margin-left: 20rem;
-  }
-
-  .md\:ml-\[18rem\] {
-    margin-left: 18rem;
-  }
-
-  .md\:ml-\[\] {
-    margin-left: ;
-  }
-
-  .md\:ml-\[2rem\] {
-    margin-left: 2rem;
-  }
-
-  .md\:ml-\[-2rem\] {
-    margin-left: -2rem;
-  }
-
-  .md\:ml-\[-rem\] {
-    margin-left: -rem;
-  }
-
-  .md\:ml-\[-7rem\] {
-    margin-left: -7rem;
   }
 }
