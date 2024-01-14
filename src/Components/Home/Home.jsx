@@ -6,10 +6,10 @@ import { FaCirclePlay } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className="bg-cover bg-center h-screen background font-inika">
+    <div className="bg-cover bg-center h-screen font-inika background">
       <Nav />
 
-      <div className="flex mx-auto">
+      <div className="flex ">
         <div className="text-[#523728] space-y-5 mt-14 ml-20">
           <p className=" text-5xl font-bold tracking-wide leading-[4rem] ">
             Bite The World of <br /> Cheesecake Wonders
@@ -29,7 +29,11 @@ const Home = () => {
           </div>
         </div>
         <div className="mr-4 ">
-          <img src={Cheesecake} alt="" className="ml-12 w-[40rem] relative bottom-[9rem] left-20 "/>
+          <img
+            src={Cheesecake}
+            alt=""
+            className="ml-12 w-[40rem] relative bottom-[9rem] left-20 "
+          />
         </div>
       </div>
     </div>
