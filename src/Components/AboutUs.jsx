@@ -2,17 +2,17 @@ import About from "../assets/PgImgs/About.png"
 
 const AboutUs = () => {
   return (
-    <div className="flex ml-20 space-x-9 h-3/5">
-      <div className="h-20  md:w-[30rem]">
+    <div className="flex ml-20 space-x-14 h-3/5">
+      <div className="  md:w-[32rem]">
         <img src={About} alt="" />
       </div>
       <div className="flex flex-col align-center mt-[10rem] space-y-5">
         <span>
           <p className="text-6xl">We Love Cheesecake</p>
-          <p>Discover Our Cheesecake Story</p>
+          <p className="text-xl">Discover Our Cheesecake Story</p>
         </span>
-        <span>
-          <p>
+        <span className="space-y-8">
+          <p className="text-[16px] ">
             At Cheesecake Love, quality is our cornerstone. Each <br />{" "}
             cheesecake is crafted with the finest ingredients, <br /> meticulous
             attention to detail, and a dash of creativity.
