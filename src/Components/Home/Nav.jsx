@@ -30,9 +30,9 @@ const Nav = () => {
         ))}
       </ul>
 
-      <div className="md:ml-[17rem] border border-[#6A4028] rounded-3xl p-2 pt-2 w-28 text-center">
+      <button className="md:ml-[17rem] border border-[#6A4028] rounded-3xl p-2 pt-2 w-28 text-center cursor-pointer hover:bg-[#6A4028]">
         Sign Up
-      </div>
+      </button>
     </nav>
   );
 };
