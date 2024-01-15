@@ -23,7 +23,7 @@ const Home = () => {
             <button className="bg-[#6A4028] text-white rounded-3xl h-12 w-40 text-center">
               Get Started
             </button>
-            <button className="border border-[#6A4028] rounded-3xl h-12 w-40 flex items-center justify-center space-x-2">
+            <button className="border border-[#6A4028] rounded-3xl h-12 w-40 flex items-center justify-center space-x-2 hover:bg-[#6A4028] hover:text-white transition ease-in-out duration-300">
               <FaCirclePlay /> <p>Watch demo</p>
             </button>
           </div>
