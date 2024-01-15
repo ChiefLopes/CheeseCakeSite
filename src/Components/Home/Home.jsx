@@ -20,7 +20,7 @@ const Home = () => {
           </p>
 
           <div className="space-x-4 pt-3 flex flex-row font-bold">
-            <button className="bg-[#6A4028] text-white rounded-3xl h-12 w-40 text-center">
+            <button className="bg-[#6A4028] text-white rounded-3xl h-12 w-40 text-center hover:bg-transparent hover:border hover:border-[#6A4028] hover:text-[#6A4028] transition ease-in-out duration-300">
               Get Started
             </button>
             <button className="border border-[#6A4028] rounded-3xl h-12 w-40 flex items-center justify-center space-x-2 hover:bg-[#6A4028] hover:text-white transition ease-in-out duration-300">
