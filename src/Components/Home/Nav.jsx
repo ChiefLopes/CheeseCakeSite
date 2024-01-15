@@ -2,16 +2,14 @@ import Logo from "../../assets/Logo/LOGO-OF-CHEESECAKE.png";
 import { useState } from "react";
 
 const Nav = () => {
-     const [activeTab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState(null);
 
-     const handleTabClick = (index) => {
-       setActiveTab(index);
-     };
-    
- 
-    
+  const handleTabClick = (index) => {
+    setActiveTab(index);
+  };
+
   return (
-    <nav className="flex items-center justify-center font-inika ">
+    <nav className="flex items-center justify-center font-inika cursor-pointer">
       <div className="md:ml-[-7rem]">
         <img src={Logo} alt="logo" />
       </div>
@@ -29,10 +27,11 @@ const Nav = () => {
           </li>
         ))}
       </ul>
-
-      <button className="md:ml-[17rem] border border-[#6A4028] rounded-3xl p-2 pt-2 w-28 text-center cursor-pointer">
-        Sign Up
-      </button>
+      <div className="md:ml-[17rem] cursor-pointer">
+        <button className="border border-[#6A4028] rounded-3xl p-2 pt-2 w-28 text-center">
+          Sign Up
+        </button>
+      </div>
     </nav>
   );
 };
