@@ -24,7 +24,7 @@ const AboutUs = () => {
             sheer indulgence.
           </p>
         </span>
-        <button className="bg-[#6A4028] text-white rounded-3xl h-12 w-40 text-center shadow-2xl">
+        <button className="bg-[#6A4028] text-white font-bold rounded-3xl h-12 w-40 text-center shadow-2xl hover:bg-transparent hover:border hover:text-[#6A4028]  hover:border-[#6A4028] transition ease-in-out duration-300">
           Read More
         </button>
       </div>
