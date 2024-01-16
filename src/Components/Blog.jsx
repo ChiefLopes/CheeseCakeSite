@@ -1,6 +1,6 @@
 import Container from "./Container";
 
-const Blog = ({ date, title, body }) => {
+const Blog = () => {
   const blogData = [
     {
       id: 1,
@@ -28,7 +28,7 @@ const Blog = ({ date, title, body }) => {
     <div className=" bg-[#FFF8e1]">
       <Container>
         <div className="text-center mb-10">
-          <h1 className="text-[64px] text-[#734B33] font-[Inika] mb-0">
+          <h1 className=" text-[34px] md:text-[64px] text-[#734B33] font-[Inika] mb-0">
             Our Blog
           </h1>
           <p className="text-[#734B33] font-[Roboto] mt-0">Our Recent Posts</p>
@@ -37,7 +37,7 @@ const Blog = ({ date, title, body }) => {
           {blogData.map((data) => (
             <div
               key={data.id}
-              className=" w-[278px] border rounded-[19px] custom-box-shadow mx-auto"
+              className="mx-10 md:w-[278px] border rounded-[19px] custom-box-shadow md:mx-auto"
             >
               <div className="w-full h-[250px] p-5">
                 <img
