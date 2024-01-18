@@ -22,3 +22,17 @@
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.3),
     -50px -50px 100px 0px rgba(0, 0, 0, 0.3);
 }
+
+/* Slider settings  */
+/* .slick-dots li button {
+  font-size: 0 !important;
+} */
+
+.slick-dots li button:before {
+  color: white !important;
+  /* font-size: 14px !important; */
+}
+
+.slick-dots li button {
+  color: red !important; /* Change this color to your desired color */
+}
